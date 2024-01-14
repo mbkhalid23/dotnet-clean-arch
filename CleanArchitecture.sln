@@ -14,9 +14,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Presentation", "3.Presentation", "{50A3F0AF-FBD8-4D8E-826C-1C1E1BED25C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infrastructure", "4.Infrastructure", "{BD00676A-F158-4A73-8483-5B48209033DE}"
-	ProjectSection(SolutionItems) = preProject
-		src\CA.Infrastructure\CA.Infrastructure.csproj = src\CA.Infrastructure\CA.Infrastructure.csproj
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA.Common", "src\CA.Common\CA.Common.csproj", "{C2102BDB-CC50-4687-93F3-F21F675B4240}"
 EndProject
@@ -26,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA.Domain", "src\CA.Domain\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA.Persistence", "src\CA.Persistence\CA.Persistence.csproj", "{644E1D62-2A47-48F5-9DE5-B8373A6BE69C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA.WebApi", "src\CA.WebApi\CA.WebApi.csproj", "{00090162-C759-4E90-97D1-55448806498C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA.WebApi", "src\CA.WebApi\CA.WebApi.csproj", "{00090162-C759-4E90-97D1-55448806498C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA.Infrastructure", "src\CA.Infrastructure\CA.Infrastructure.csproj", "{FEB3CDB0-FA56-47F6-A580-4A09B1DD2FD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +53,10 @@ Global
 		{00090162-C759-4E90-97D1-55448806498C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00090162-C759-4E90-97D1-55448806498C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00090162-C759-4E90-97D1-55448806498C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB3CDB0-FA56-47F6-A580-4A09B1DD2FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB3CDB0-FA56-47F6-A580-4A09B1DD2FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB3CDB0-FA56-47F6-A580-4A09B1DD2FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB3CDB0-FA56-47F6-A580-4A09B1DD2FD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +71,7 @@ Global
 		{5D820F53-365F-4553-A88C-B86D69081D8E} = {E7097213-1180-435F-8B6C-92142C6F617D}
 		{644E1D62-2A47-48F5-9DE5-B8373A6BE69C} = {BD00676A-F158-4A73-8483-5B48209033DE}
 		{00090162-C759-4E90-97D1-55448806498C} = {50A3F0AF-FBD8-4D8E-826C-1C1E1BED25C9}
+		{FEB3CDB0-FA56-47F6-A580-4A09B1DD2FD0} = {BD00676A-F158-4A73-8483-5B48209033DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA5D2B35-1037-4893-8840-74625EF6A12A}
